@@ -115,7 +115,7 @@ public class VarastoTest {
     @Test
     public void negatiivinenLisays() {
         varasto.lisaaVarastoon(-1);        
-        assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
     
     @Test
