@@ -117,6 +117,7 @@ public class VarastoTest {
         varasto.lisaaVarastoon(-1);        
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
+    //
     
     @Test
     public void ottaminenOttaaKorkeintaanTyhjaksi() {
