@@ -46,13 +46,7 @@ public class StatisticsTest {
     public StatisticsTest() {
     }
     
-    @BeforeClass
-    public static void setUpClass() {
-    }
     
-    @AfterClass
-    public static void tearDownClass() {
-    }
     
     @Test
     public void searchName() {
