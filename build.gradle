@@ -35,6 +35,7 @@ jar {
         attributes 'Main-Class': 'ohtu.main.Main'
     }
 }
+apply plugin: 'checkstyle'
 
 apply plugin: "jacoco"
 
